@@ -46,9 +46,16 @@ display: inline-block;}
 
 button{
     border-radius: 80px;
+    border: none;
+    padding: 6px;
+    margin-bottom: 5px;
     background-color: blanchedalmond;
 }
 
+button:hover{
+    background-color: rgb(214, 161, 28);
+    transition: all .4s ease;
+}
 
 .logo{
     margin-top: 5px;
