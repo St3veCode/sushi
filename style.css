@@ -4,7 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: rgb(224, 223, 221);
+}
 
 .header{
     display: flex;
@@ -19,8 +21,7 @@
 
 
 .menu ul li{
-    display: inline-block;
-}
+display: inline-block;}
 
 
 
@@ -36,7 +37,9 @@
 
 .item{
     background-color: rgb(179, 179, 185);
-    flex-basis: 200px;
+    flex-basis: 90px;
+    margin-top: 30px;
+
 
 }
 
@@ -44,6 +47,11 @@
 button{
     border-radius: 80px;
     background-color: blanchedalmond;
+}
+
+
+.logo{
+    margin-top: 5px;
 }
 
 
